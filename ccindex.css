@@ -37,10 +37,8 @@ body {
   .button {
     position: fixed;
     margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 430px;
+    top: 350px;
     width: 400px; /* width of button */
     height: 50px; /* height of button */
     background-color: rgba(49, 79, 88, 1);
@@ -55,6 +53,9 @@ body {
     border-radius: 12px;
   }
   .fa {
+      position: relative;
+      left: -3px;
+      top: 450px;
       padding: 20px;
       font-size: 30px;
       width: 50px;
@@ -71,4 +72,8 @@ body {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
