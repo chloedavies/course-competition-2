@@ -49,13 +49,13 @@ h1 {
 }
 
 body {
-    background-color: rgba(49, 79, 88, 1);
-  }
+  background-color: rgba(49, 79, 88, 1);
+}
 
 .jumbotron {
-    background-color: rgba(49, 79, 88, 1);
+  background-color: rgba(49, 79, 88, 1);
 
-  }
+}
 .navbar-brand {
-    font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive;
 }
