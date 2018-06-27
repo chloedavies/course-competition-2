@@ -1,11 +1,11 @@
 html {
-    background: url(image url) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
+  background: url(image url) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 header {
   text-align: center;
@@ -15,28 +15,69 @@ header {
 }
 h1 {
   font-family: 'Satisfy', cursive;
-  font-size: 50px;
+  font-size: 100px;
   letter-spacing: 3px;
   text-align: center;
   left: 0;
   line-height: 200px;
   margin: auto;
-  margin-top: -100px;
+  margin-top: -150px;
   position: absolute;
   top: 50%;
   width: 100%;
 }
 body {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url("birdseyeview.jpg");
     background-size: cover;
     color: white;
   }
-.btn-primary {
+  .button {
+    position: fixed;
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-}
+    left: 430px;
+    top: 350px;
+    width: 400px; /* width of button */
+    height: 35px; /* height of button */
+    background-color: rgba(60, 65, 91, 1);
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, #4074ad 0%, #9bc0e8 51%, #4074ad 100%);
+  }
+  .button:hover {
+    opacity: 0.6;
+  }
+  .fa {
+    position: relative;
+    left: -3px;
+    top: 450px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    color: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
