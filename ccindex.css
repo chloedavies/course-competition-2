@@ -15,7 +15,7 @@ header {
 }
 h1 {
   font-family: 'Satisfy', cursive;
-  font-size: 70px;
+  font-size: 100px;
   letter-spacing: 3px;
   text-align: center;
   left: 0;
@@ -35,10 +35,10 @@ body {
     color: white;
   }
   .button {
-    position: fixed;
+    position: relative;
     margin: auto;
-    left: 430px;
-    top: 350px;
+    left: 0px;
+    top: 400px;
     width: 400px; /* width of button */
     height: 35px; /* height of button */
     background-color: rgba(60, 65, 91, 1);
